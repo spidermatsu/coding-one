@@ -5,7 +5,8 @@
 
 num1 = 0
 num2 = 0
-num3= 0
+num3 = 0
+
 
 while True:
     try: 
@@ -17,5 +18,11 @@ while True:
     except ValueError:
         print("Not a number. Try again")
         
+myoutput = num3
+        
 for i in range(num1, num2):
+    myoutput = num3 + myoutput
+    
+    
+print(myoutput)
         
